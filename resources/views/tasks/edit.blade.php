@@ -8,6 +8,9 @@
 
         {!! Form::label('content', 'Content') !!}
         {!! Form::text('content') !!}
+        
+        {!! Form::label('content', 'Status') !!}
+        {!! Form::text('status') !!}
 
         {!! Form::submit('更新') !!}
 
